@@ -131,6 +131,7 @@ h1{
 	border: 2px solid lightcyan;
 	color: #000;
 	background: lightcyan;
+	opacity: 0.7;
 	cursor: pointer;
 	transition: all 0.7s ease 0s;
 	font-weight: 300;

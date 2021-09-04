@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Квадратура круга</title>
+	<link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<!--<script src="js/nav.js"></script>-->
+	<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+	<header>
+		<div class="header">
+			<div class="header__section">
+				<img class="logoimg" src="img/logo-white.png" alt="0ct0">
+			</div>
+			<div class="header__section">
+				<img class="menuimg" src="img/menu.png" alt="Menu" onclick="openNav()">
+			</div>
+		</div>
+	</header>
+
+
+	<div class="maintext">
+		<h3>
+			Rave till the grave!
+		</h3>
+		<h1>
+			Заходи в чат.
+		</h1>
+		<div class="maintext__bottom">
+			У нас есть Telegram чат, там всё общение движения.
+			<br>
+			Ну и конечно же видосики и фоточки.
+		</div>
+		<p>
+			<a class="button" target="_blank" href="https://t.me/ravetillthegrave">Чат</a>
+		</p>
+	</div>
+
+
+
+<!-- overlay   ----------------------------------------->
+	<div id="myNav" class="overlay">
+
+		<!-- кнопка для закрытия оверлея -->
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+		<!-- overlay content -->
+		<div class="overlay-content">
+			<a href="index.html">Главная</a>
+			<a href="about.html">Кто мы</a>
+			<a href="contact.html">Как с нами связаться</a>
+			<a href="donation.html">Сделать свой вклад</a>
+		</div>
+	</div>
+
+<!-- Баловство ----------------------------------------->
+<footer>
+	<div class="footer">
+		<div class="footer__section">
+
+				<img class="octo" src="img/octo-white.png" alt="0ct0">
+		</div>
+	</div>
+</footer>
+
+<!-- JavaScripts ------------------------------------->
+<script>
+	/* Open */
+	function openNav() {
+  	document.getElementById("myNav").style.height = "100%";
+	}
+
+	/* Close */
+	function closeNav() {
+  	document.getElementById("myNav").style.height = "0%";
+	} 
+</script>
+
+</body>
+</html>
